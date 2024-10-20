@@ -57,6 +57,20 @@
   scroll-behavior: smooth;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
@@ -1734,7 +1748,29 @@ section,
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
+/*-------------------------------------------------------------------
+.custom-language-dropdown {
+    display: none; /* Initially hidden */
+    background-color: #007bff; /* Background color */
+    border-radius: 5px;
+    position: absolute; /* To position it correctly */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
 
+.dropdown:hover .custom-language-dropdown {
+    display: block; /* Show on hover */
+}
+
+.custom-language-dropdown li {
+    padding: 10px; /* Padding for each item */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.custom-language-dropdown li:hover {
+    background-color: #0056b3; /* Darker on hover */
+}
+/*-------------------------------------------------------------------
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
